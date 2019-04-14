@@ -13,8 +13,19 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        DataAcquireDemo.cpp
+        DataAcquireDemo.cpp \
+    InitAPP.cpp \
+    IconTool.cpp
 
-HEADERS  += DataAcquireDemo.h
+HEADERS  += DataAcquireDemo.h \
+    head.h \
+    InitAPP.h \
+    IconTool.h
 
 FORMS    += DataAcquireDemo.ui
+
+RESOURCES += \
+    resource.qrc
+
+DISTFILES += \
+    DataAcquireTrans.qph

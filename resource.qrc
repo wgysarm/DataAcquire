@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/iamge">
+        <file>resource/img/fontawesome-webfont.ttf</file>
+        <file>resource/img/main.jpg</file>
+    </qresource>
+</RCC>
